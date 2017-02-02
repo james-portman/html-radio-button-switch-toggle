@@ -1,0 +1,23 @@
+<html>
+<style>
+.toggle input {
+  display: none;
+}
+
+.toggle input + label {
+  padding: 50px;
+}
+
+.toggle input + label {
+  background-color: gray;
+}
+
+.toggle input:checked + label {
+  background-color: green;
+}
+</style>
+
+<div class="toggle">
+<input type="radio" name="choose" id="id-a" checked><label for="id-a">a</label>
+<input type="radio" name="choose" id="id-b"><label for="id-b">b</label>
+</div>
